@@ -1,0 +1,132 @@
+    1  sudo add-apt-repository ppa:deadsnakes/ppa
+    2  sudo apt-get update
+    3  sudo apt-get -y upgrade
+    4  sudo apt-get update
+    5  sudo apt-get -y upgrade
+    6  sudo apt install postgresql
+    7  sudo su - postgres
+    8  sudo apt-get install git python3-pip make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev curl
+    9  sudo pip install virtualenvwrapper
+   10  git clone https://github.com/yyuu/pyenv.git ~/.pyenv
+   11  git clone https://github.com/yyuu/pyenv-virtualenvwrapper.git ~/.pyenv/plugins/pyenv-virtualenvwrapper
+   12  echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+   13  echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+   14  echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+   15  echo 'pyenv virtualenvwrapper' >> ~/.bashrc
+   16  exec $SHELL
+   17  pyenv install 3.9.5
+   18  mkdir -p codes/backend
+   19  cd codes/backend
+   20  echo '3.9.5' >> .python-version
+   21  python -m venv venv
+   22  source venv/bin/activate
+   23  git clone https://github.com/mirumee/saleor.git
+   24  cd saleor/
+   25  rm -r .git
+   26  sudo rm -r .git
+   27  pip install -r requirements_dev.txt
+   28  deactivate
+   29  sudo apt update
+   30  sudo apt install     build-essential     curl     libbz2-dev     libffi-dev     liblzma-dev     libncursesw5-dev     libreadline-dev     libsqlite3-dev     libssl-dev     libxml2-dev     libxmlsec1-dev     llvm     make     tk-dev     wget     xz-utils     zlib1g-dev
+   31  source venv/bin/activate
+   32  cd ..
+   33  source venv/bin/activate
+   34  cd saleor/
+   35  pip install -r requirements_dev.txt
+   36  sudo dnf install ffi
+   37  exit
+   38  pyenv install 3.10.7
+   39  echo '3.10.7' >> .python-version
+   40  nano .python-version 
+   41  python --version
+   42  cd codes/backend/
+   43  cd ..
+   44  rm -r backend/
+   45  mkdir backend
+   46  ls -l
+   47  cd backend/
+   48  python -m venv venv
+   49  source venv/bin/activate
+   50  git clone https://github.com/mirumee/saleor.git
+   51  cd saleor
+   52  rm -r .git
+   53  sudo rm -r .git
+   54  pip install -r requirements_dev.txt
+   55  deactivate
+   56  cd ..
+   57  pyenv install 3.9.16
+   58  echo '3.9.16' >> .python-version
+   59  nano .python-version 
+   60  python --version
+   61  source venv/bin/activate
+   62  python --version
+   63  cd ..
+   64  ls -l
+   65  cd backend/
+   66  ls -l
+   67  rm -r *
+   68  python -m venv venv
+   69  python -m venv 
+   70  python --version
+   71  deactivate
+   72  python --version
+   73  python -m venv venv
+   74  git clone https://github.com/mirumee/saleor.git
+   75  source venv/bin/activate
+   76  cd saleor/
+   77  sudo rm -r .git
+   78  python --version
+   79  pip install -r requirements_dev.txt
+   80  python3 --version
+   81  python3 -m pip install  codecov2.1.12
+   82  python3 -m pip install  codecov2.1.13
+   83  pip install codecov==2.1.12
+   84  /home/ubuntu/codes/backend/venv/bin/python -m pip install --upgrade pip
+   85  pip install codecov==2.1.12
+   86  pip install codecov==2.1.13
+   87  python3 -m pip install  codecov2.1.13
+   88  pip install -r requirements_dev.txt
+   89  nano requirements_dev.txt 
+   90  pip install -r requirements_dev.txt
+   91  sudo apt-get install libpq-dev
+   92  pip install -r requirements_dev.txt
+   93  python manage.py shell
+   94  export ALLOWED_HOSTS=13.232.161.192
+   95  ALLOWED_CLIENT_HOSTS=13.232.161.192
+   96  export DEBUG=True
+   97  export SECRET_KEY='gi_saleor_core_2023'
+   98  export INTERNAL_IPS=13.232.161.192
+   99  export DEFAULT_COUNTRY=IN
+  100  export DEFAULT_CURRENCY=INR
+  101  python manage.py migrate
+  102  sudo apt-get install -y libpangocairo-1.0-0
+  103  python manage.py migrate
+  104  psql --version
+  105  sudo su - postgres
+  106  python manage.py migrate
+  107  sudo su - postgres
+  108  python manage.py runserver 0.0.0.0:8080
+  109  python manage.py migrate
+  110  anno /home/ubuntu/codes/backend/venv/lib/python3.9/site-packages/django/db/backends/utils.py
+  111  nano /home/ubuntu/codes/backend/venv/lib/python3.9/site-packages/django/db/backends/utils.py
+  112  anno /home/ubuntu/codes/backend/venv/lib/python3.9/site-packages/django/db/backends/utils.py
+  113  nano /home/ubuntu/codes/backend/venv/lib/python3.9/site-packages/django/db/backends/utils.py
+  114  sudo su - postgres
+  115  python manage.py migrate
+  116  nano /home/ubuntu/codes/backend/venv/lib/python3.9/site-packages/django/db/backends/utils.py
+  117  python manage.py migrate
+  118  nano /home/ubuntu/codes/backend/venv/lib/python3.9/site-packages/django/db/backends/utils.py
+  119  python manage.py migrate
+  120  nano /home/ubuntu/codes/backend/venv/lib/python3.9/site-packages/django/db/backends/utils.py
+  121  python manage.py migrate
+  122  nano /home/ubuntu/codes/backend/venv/lib/python3.9/site-packages/django/db/backends/utils.py
+  123  python manage.py migrate
+  124  export SECRET_KEY='gi_saleor_core_2023'
+  125  python manage.py migrate
+  126  python manage.py makemigrations
+  127  python manage.py migrate
+  128  export SECRET_KEY='gi_saleor_core_2023'
+  129  python manage.py runserver 0.0.0.0:8080
+  130  python manage.py populatedb
+  131  git status
+  132  history >> command_history.txt
